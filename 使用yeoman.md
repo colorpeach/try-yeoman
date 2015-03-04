@@ -1,5 +1,7 @@
 #开始使用Yeoman - 使用Yeoman
 
+[官方教程](http://yeoman.io/learning/index.html)
+
 ##找到对应的生成器（generator）
 
 官网的教程里边推荐了`generator-webapp`，这个生成器会生成工程目录，其中包括：
