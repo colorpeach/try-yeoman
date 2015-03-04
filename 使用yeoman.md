@@ -39,10 +39,9 @@ npm install -g generator-angular
 yo angular
 ```
 
-执行上面的命令后，会发现在刚才新建的`try-yeoman`目录下，生成了很多的目录和文件，
-其中有`bower.json`和`Gruntfile.js`，这两个分别是工程的前端依赖（框架，控件等）和自动化构建工具grunt的配置文件，
-
-通过命令
+执行上面的命令，Yeoman会询问你是否包含一些库，询问完成后，开始生成工程框架。
+并且Yeoman会自动帮你安装`package.json`和`bower.json`中的依赖，如果发生错误，
+你需要自己通过命令
 
 ```
 npm install     // 安装`package.json`里描述的依赖
@@ -50,6 +49,9 @@ bower install   // 安装`bower.json`里描述的依赖
 ```
 
 安装工程的所有依赖
+
+在这个过程完成后，会发现在刚才新建的`try-yeoman`目录下，生成了很多的目录和文件，
+其中有`bower.json`和`Gruntfile.js`，这两个分别是工程的前端依赖（框架，控件等）和自动化构建工具grunt的配置文件，
 
 在安装完整个工程的依赖之后，便可以开始开发工作了。
 
@@ -69,7 +71,7 @@ Yeoman提供了`sub-generators`，上面的`generator-angular`就提供了一些
 
 ##工作流
 
-使用Yeoman快速搭建好工程的后，使用[grunt](http://gruntjs.com/)和[bower](http://bower.io/)让工作更加高效
+使用Yeoman快速搭建好工程的后，使用[grunt](http://gruntjs.com/)和[bower](http://bower.io/)让工作更加高效。
 
 
 
